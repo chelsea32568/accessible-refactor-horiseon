@@ -30,14 +30,11 @@ h1 {
     float: right;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
-}
-
-.header div ul {
-    list-style-type: none;
+    margin-left: 25px;
 }
 
 .header div ul li {
-    display: inline-block;
+   display: inline-block;
     margin-left: 25px;
 }
 
@@ -84,7 +81,7 @@ p {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
 }
-
+/*shared among all elements in the benefit-block*/
 .benefit-block {
     margin-bottom: 32px;
     color: #ffffff;
@@ -94,13 +91,14 @@ h3 {
     margin-bottom: 10px;
     text-align: center;
 }
-
+/*shared among all img elements in the benefit block*/
 .benefit-block img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
+/*shared among all elemnts in the sub-heading block*/
 .sub-heading {
     margin-bottom: 20px;
     padding: 50px;
@@ -124,8 +122,4 @@ h3 {
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
-}
-
-.footer h2 {
-    font-size: 20px;
 }
